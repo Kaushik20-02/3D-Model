@@ -119,7 +119,7 @@ span{
     width: 100%;
     height: 8%;
     position: fixed;
-    z-index: 200;
+    z-index: 100;
     background: transparent;
 }
 button{
@@ -339,4 +339,12 @@ form{
         right: 40%;
         top: 38%;
     }
+}
+
+#preloader{
+    background: #000000 url(load2.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 2000;
 }

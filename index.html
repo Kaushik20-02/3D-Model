@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div id="preloader"></div>
     <div id="nav">
         <h1><span>3D</span> Model</h1>
         <button href="/">Join <span>Now</span></button>
@@ -113,6 +114,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="indd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
     <script>
     var typingEffect = new Typed(".multitxt",
         {
@@ -120,6 +122,13 @@
             loop: true, typeSpeed: 100,
             backSpeed: 80, backDelay: 1500
 
+        })
+    </script>
+
+    <script>
+        var loader= document.getElementById('preloader')
+        window.addEventListener("load", function(){
+            loader.style.display= 'none'
         })
     </script>
 </body>
