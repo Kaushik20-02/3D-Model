@@ -290,17 +290,18 @@ form{
     z-index: 10;
 }
 .social1 ul li{
-    padding: 10px;
+    padding: 8px;
     text-decoration: none;
     list-style: none;
     transition: 0.5s;
     font-size: 20px;
 }
 .social1 ul li a{
+    font-size: 1rem;
     color: #161616;
 }
 .social1 ul li :hover{
-    color: #ef0454;
+    color: #aa58f6;
     transform: translateY(-5px);
 }
 /* Animation */
@@ -347,4 +348,44 @@ form{
     width: 100%;
     position: fixed;
     z-index: 2000;
+}
+
+/* Mobile devices */
+@media(max-width: 844px){
+    #page,#page1,#page2{
+        background: #373434;
+        transition: .5s;
+    }
+    #nav>h1{
+        color: #c5b1b1;
+        font-size: 1.2rem;
+        margin-left: -.5rem;
+    }
+    .na{
+        -webkit-text-stroke: 1.5px #e4ccfc; /*border color*/
+    }
+    button{
+        font-size: .7rem;
+    }
+    #loop{
+        margin-left: -2rem;
+        z-index: 100;
+    }
+    #loop>h5,#loop>h4,#loop>h1{
+        color: #e2deec;
+    }
+    .multitxt{
+        -webkit-text-stroke: 2.5px #d5b2f8; /*border color*/
+    }
+    #page>h3{
+        top: 80%;
+        z-index: 100;
+        color:rgb(30, 28, 28);
+    }
+    #page>h4{
+        right: 1rem;
+        top: 70%;
+        z-index: 100;
+        color: rgb(202, 176, 239);
+    }
 }
