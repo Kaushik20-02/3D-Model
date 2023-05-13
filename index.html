@@ -12,12 +12,13 @@
 </head>
 <body>
     <div id="preloader"></div>
-    <div id="nav">
-        <h1><span class="na">3D</span> Model</h1>
-        <button href="/">Join <span>Now</span></button>
-    </div>
     <div id="main">
         <div id="page">
+            <div id="nav">
+                <h1><span class="na">3D</span> Model</h1>
+                <button href="/">Join <span>Now</span></button>
+            </div>
+            <div class="ball"></div>
             <div id="loop">
                 <h5>Hello I'm</h5>
                 <h4><span>--</span> Kaushik</h4>
@@ -138,5 +139,22 @@
             loader.style.display= 'none'
         })
     </script>
+
+   <script>
+        var lastScrollTop=0;
+        navbar= document.getElementById('#nav')
+        window.addEventListener("scroll",function(){
+            var scrollTop= window.pageYOffset || document.
+            documentElement.scrollTop
+            if(scrollTop>lastScrollTop){
+                navbar.style.top= '-8%'
+            }
+            else{
+                navbar.style.top='0'
+            }
+            lastScrollTop= scrollTop
+        })
+    </script>
+
 </body>
 </html>

@@ -16,12 +16,14 @@ html,body{
     height: 100vh;
     width: 100vw;
     background-color: #f1f1f1;
+    z-index: 2;
 }
 #page1{
     position: relative;
     height: 100vh;
     width: 100vw;
     background-color: #fff;
+
 }
 .page4{
     z-index: 10;
@@ -118,8 +120,7 @@ span{
     justify-content: space-between;
     width: 100%;
     height: 8%;
-    position: fixed;
-    z-index: 100;
+    z-index: 10;
     background: transparent;
 }
 button{
@@ -240,7 +241,6 @@ p2{
 }
 .cr{
     width: 80%;
-    margin-right: -24rem;
 }
 .p1{
     display: flex;
@@ -305,7 +305,7 @@ form{
     transform: translateY(-5px);
 }
 /* Animation */
-#page::before{
+.ball::before{
     position: absolute;
     content: '';
     height: 400px;
@@ -313,11 +313,11 @@ form{
     border-radius: 50%;
     right: -8%;
     top: -20%;
-    z-index: 1;
+    z-index: -1;
     background: linear-gradient(90deg, rgb(238, 235, 235),#b5a7ac);
-    animation: object1 6s linear infinite;
+    animation: object1  6s linear infinite;
 }
-#page::after{
+.ball::after{
     position: absolute;
     content: '';
     height: 150px;
@@ -398,6 +398,10 @@ form{
         color: #ded8f1;
     }
     /* About */
+    .left>h1{
+        font-size: 5rem;
+        z-index: 10;
+    }
     .left{
         top: 20%;
         color: #cbcbcb;
@@ -475,6 +479,7 @@ form:nth-child(4){
     transition-delay: 600ms;
 }
 */
+
 
 
 
