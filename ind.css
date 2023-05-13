@@ -379,6 +379,7 @@ form{
     }
     #page>h3{
         top: 80%;
+        padding-left: .5rem;
         z-index: 100;
         color:rgb(30, 28, 28);
     }
