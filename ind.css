@@ -24,7 +24,7 @@ html,body{
     background-color: #fff;
 }
 .page4{
-    z-index: 10000;
+    z-index: 10;
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -352,9 +352,15 @@ form{
 
 /* Mobile devices */
 @media(max-width: 844px){
-    #page,#page1,#page2{
-        background: #373434;
+    #main{
+        background: #363535;
+    }
+    #page{
+        background: #3f3b3b;
         transition: .5s;
+    }
+    #page1,#page2{
+        background: #312e2e;
     }
     #nav>h1{
         color: #c5b1b1;
@@ -379,7 +385,6 @@ form{
     }
     #page>h3{
         top: 80%;
-        padding-left: .5rem;
         z-index: 100;
         color:rgb(30, 28, 28);
     }
@@ -389,4 +394,87 @@ form{
         z-index: 100;
         color: rgb(202, 176, 239);
     }
+    .social1 ul li a{
+        color: #ded8f1;
+    }
+    /* About */
+    .left{
+        top: 20%;
+        color: #cbcbcb;
+    }
+    button{
+        background-color: rgb(95, 82, 106);
+    }
+    #loopp{
+        width: 100%;
+    }
+    .right{
+        z-index: 100;
+        width: 100%;
+    }
+    .right>p{
+        color: rgb(62, 53, 77);
+        margin-top: 40rem;
+        font-weight: 900;
+        font-size: 1.3rem;
+        -webkit-text-stroke: 1px #636166; /*border color*/
+    }
+    /* Contact */
+    .page4{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .cr{
+        position: absolute;
+        left: -22%;
+        top: 18%;
+        z-index: 100;
+        width: 100%;
+    }
+    h3{
+        margin-left: 3rem;
+        -webkit-text-stroke: 1px #e4d6fa; /*border color*/
+    }
+    form{
+        width: 24rem;
+        gap: .8rem;
+    }
+    .cl{
+        top: 50%;
+        left: -2%;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+    }
+    .b1,.b2,.b3{
+        padding: 2px;
+        gap: none;
+    }
 }
+/* for Page Animation */
+.page4{
+    opacity: 0;
+    transition: all 3s;
+    filter: blur(15px);
+    transform: translateX(-100%);
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+/* for IMAGE Animation 
+form:nth-child(2){
+    transition-delay: 200ms;
+}
+form:nth-child(3){ 
+    transition-delay: 400ms;
+}
+form:nth-child(4){
+    transition-delay: 600ms;
+}
+*/
+
+
+
