@@ -341,14 +341,13 @@ form{
         top: 38%;
     }
 }
-/*
 #preloader{
     background: #000000 url(load2.gif) no-repeat center center;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 2000;
-} */
+} 
 
 /* Mobile devices */
 @media(max-width: 844px){
