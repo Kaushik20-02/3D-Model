@@ -47,8 +47,8 @@ window.addEventListener('resize', function(){
 
 function files(index){
     var data = 
-   `3d/male0001.webp
-    3d/male0002.webp
+   `https://images.pexels.com/photos/16134885/pexels-photo-16134885.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
+   https://images.pexels.com/photos/16380570/pexels-photo-16380570.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
     3d/male0003.webp
     3d/male0004.webp
     3d/male0005.webp
