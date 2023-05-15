@@ -269,8 +269,9 @@ input,#inp{
     background-color: #f9f0f0;
     transition: .5s;
     font-size: 1rem;
+    outline: none;
 }
-input:hover{
+input:hover,#inp:hover{
     background-color: #cccbcb;
 }
 form{
@@ -364,7 +365,7 @@ form{
 } 
 
 /* Mobile devices */
-@media(max-width: 844px){
+@media(max-width: 768px){
     #main{
         background: #363535;
     }
@@ -425,12 +426,14 @@ form{
         
     }
     .left{
-        margin-top: 25%;
+        margin-top: 39%;
+        margin-left: .8rem;
         color: #cbcbcb;
     }
     .left>button{
-        top: 88%;
-        left: 5%;
+        margin-top: 38%;
+        left: -2.3rem;
+        transform: rotate(90deg);
         position: absolute;
         background-color: rgb(95, 82, 106);
     }
@@ -444,7 +447,7 @@ form{
     .right>p{
         margin-left: 1rem;
         color: rgb(62, 53, 77);
-        margin-top: 28rem;
+        margin-top: 33rem;
         font-weight: 900;
         font-size: 1.3rem;
         -webkit-text-stroke: 1px #636166; /*border color*/
@@ -457,21 +460,28 @@ form{
     }
     .cr{
         position: absolute;
-        left: -27%;
+        left: -29%;
         top: 18%;
         z-index: 100;
         width: 100%;
     }
-    h3{
-        margin-left: 3rem;
-        -webkit-text-stroke: 1.2px #d5cbe9; /*border color*/
+    .cr>h3{
+        font-weight: 900;
+        margin-left: 7rem;
+        -webkit-text-stroke: 1.2px #d5c7f3; /*border color*/
     }
     form{
         width: 24rem;
         gap: .8rem;
     }
+    form>button{
+        width: 50%;
+        margin: auto;
+        padding: 1.2rem;
+        font-size: 1rem;
+    }
     .cl{
-        top: 70%;
+        top: 50%;
         left: -2%;
         display: flex;
         flex-direction: row;

@@ -449,5 +449,5 @@ const observer= new IntersectionObserver((entries)=>{
   })
 })
 
-const hiddenElements= document.querySelectorAll('page4,.left')
+const hiddenElements= document.querySelectorAll('.page4,.left')
 hiddenElements.forEach((el)=>observer.observe(el))
