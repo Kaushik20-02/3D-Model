@@ -47,9 +47,9 @@ window.addEventListener('resize', function(){
 
 function files(index){
     var data = 
-   `https://github.com/aadilkhan08/CYBERFICTION-SOURCE-CODE/blob/main/aaaaaaaaaaaa.png?raw=true
-   https://github.com/aadilkhan08/CYBERFICTION-SOURCE-CODE/blob/main/aaaaaaaaaaaa.png?raw=true
-    3d/male0003.webp
+   `https://raw.githubusercontent.com/Kaushik20-02/images/main/male0001.webp
+   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0002.webp
+   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0003.webp
     3d/male0004.webp
     3d/male0005.webp
     3d/male0006.webp
