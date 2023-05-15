@@ -50,12 +50,12 @@ function files(index){
    `https://raw.githubusercontent.com/Kaushik20-02/images/main/male0001.webp
    https://raw.githubusercontent.com/Kaushik20-02/images/main/male0002.webp
    https://raw.githubusercontent.com/Kaushik20-02/images/main/male0003.webp
-    3d/male0004.webp
-    3d/male0005.webp
-    3d/male0006.webp
-    3d/male0007.webp
-    3d/male0008.webp
-    3d/male0009.webp
+   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0004.webp
+   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0005.webp
+   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0006.webp
+   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0007.webp
+   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0008.webp
+   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0009.webp
     3d/male0010.webp
     3d/male0011.webp
     3d/male0012.webp
