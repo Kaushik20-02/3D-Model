@@ -123,6 +123,19 @@ span{
     z-index: 10;
     background: transparent;
 }
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 40rem;
+}
+.nav2>a{
+    font-size: 1rem;
+}
+#menu-btn{
+    display: none;
+}
 button{
     padding: .5rem .6rem;
     background-color: #494343;
@@ -365,7 +378,7 @@ form{
 } 
 
 /* Mobile devices */
-@media(max-width: 450px){
+@media(max-width: 600px){
     #main{
         background: #363535;
     }
@@ -421,17 +434,22 @@ form{
     /* About  */
     .left>h1{
         font-size: 5rem;
-        z-index: 10;
-        background: #312e2e;
-        
+        z-index: 10;        
     }
     .left{
-        margin-top: 39%;
+        position: absolute;
+        top: 5rem;
         margin-left: .8rem;
-        color: #cbcbcb;
+        margin: auto;
+        background: linear-gradient(135deg, rgba(255,255,255,0.8),rgba(255,255,255,0));
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(50px);
+        border-radius: 1rem;
+        border: 1px solid rgba(74, 68, 68, 0.18);
+        box-shadow: 0 8px 32px 0 rgba(221, 217, 217, 0.38);
     }
     .left>button{
-        margin-top: 38%;
+        margin-top: 48%;
         left: -2.3rem;
         transform: rotate(90deg);
         position: absolute;
@@ -447,7 +465,7 @@ form{
     .right>p{
         margin-left: 1rem;
         color: rgb(62, 53, 77);
-        margin-top: 33rem;
+        margin-top: 42rem;
         font-weight: 900;
         font-size: 1.3rem;
         -webkit-text-stroke: 1px #636166; /*border color*/
@@ -526,6 +544,7 @@ form:nth-child(4){
 
 /* for Page UP */
 .top{
+    z-index: 100;
     position: fixed;
     bottom: 2.1rem;
     right: 2.1rem;
@@ -545,7 +564,7 @@ form:nth-child(4){
 }
 .glass{
     z-index: 100;
-    width: 500px;
+    width: 900px;
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -556,13 +575,14 @@ form:nth-child(4){
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(50px);
     border-radius: 1rem;
-    border: 1px solid rgba(255,255,255,0.18);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.38);
+    border: 1px solid rgba(74, 68, 68, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(73, 70, 70, 0.38);
 }
 .skills{
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     padding: 0 20px;
+    margin-bottom: 2rem;
   }
   
   .skill-name{

@@ -451,3 +451,13 @@ const observer= new IntersectionObserver((entries)=>{
 
 const hiddenElements= document.querySelectorAll('.page4,.left')
 hiddenElements.forEach((el)=>observer.observe(el))
+
+
+let menu= document.querySelector('#menu-btn');
+let navbar= document.querySelector('.nav2');
+
+
+menu.onclick=() =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('active');
+}
