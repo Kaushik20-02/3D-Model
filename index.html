@@ -69,11 +69,37 @@
             </div>
         </div>
         <div id="page2">
-            <h3>Skills left</h3>
-            <h3>Services left</h3>
-            <h3>Qualification(education,work) left</h3>
-            <h3>Project left</h3>
-            <h3>Testimonial left</h3>
+            <div class="glass">
+                <h5>Skills</h5>
+            <!--<h5>Skills left</h5>
+            <h5>//Services left</h5>
+            <h5>Qualification(education,work) left</h5>
+            <h5>Project left</h5>
+            <h5>Testimonial left</h5>  -->
+            <div class="skills">
+                <div class="skill">
+                  <div class="skill-name">HTML</div>
+                  <div class="skill-bar">
+                    <div class="skill-per" per="90%" style="max-width:90%"></div>
+                  </div>
+                </div>
+              
+                <div class="skill">
+                  <div class="skill-name">CSS</div>
+                  <div class="skill-bar">
+                    <div class="skill-per" per="70%" style="max-width:70%"></div>
+                  </div>
+                </div>
+              
+                <div class="skill">
+                  <div class="skill-name">Javascript</div>
+                  <div class="skill-bar">
+                    <div class="skill-per" per="60%" style="max-width:60%"></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        
         </div>
         <div id="page3">
             <div class="l3">
@@ -155,12 +181,14 @@
             lastScrollTop= scrollTop
         })
     </script>
-    <!-- Loading animation 2type -->
 
+    <!-- Loading animation 2type -->
     <script type = "text/javascript">   
     setTimeout(function(){
        document.getElementById("preloader").style.display="none";
-    }, 900);  
+    }, 1000);  
     </script>
+
+<a href="./" class="top"><i class="fas fa-chevron-up"></i></a>
 </body>
 </html>

@@ -365,7 +365,7 @@ form{
 } 
 
 /* Mobile devices */
-@media(max-width: 768px){
+@media(max-width: 450px){
     #main{
         background: #363535;
     }
@@ -523,3 +523,100 @@ form:nth-child(4){
     transition-delay: 600ms;
 }
 */
+
+/* for Page UP */
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+}
+.top i{
+    color: black;
+    background: #bbbbe1;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* Glass Effect */
+.glass>h5{
+    font-size: 3rem;
+    color: #515051;
+    font-weight: 800;
+}
+.glass{
+    z-index: 100;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: linear-gradient(135deg, rgba(255,255,255,0.8),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(50px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.38);
+}
+.skills{
+    width: 100%;
+    max-width: 400px;
+    padding: 0 20px;
+  }
+  
+  .skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: #77727c;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  
+  .skill-bar{
+    height: 1.8rem;
+    background: #aea6b1;
+    border-radius: 3px;
+    border-radius: 1rem;
+  }
+  
+  .skill-per{
+    height: 1.8rem;
+    background: #9a88eb;
+    position: relative;
+    animation: fillBars 3.5s infinite;
+    border-radius: 1rem;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+  
+  @keyframes fillBars{
+    from{
+      width: 0;
+    }
+    to{
+      width: 100%;
+    }
+  }
