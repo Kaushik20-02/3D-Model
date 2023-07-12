@@ -47,16 +47,16 @@ window.addEventListener('resize', function(){
 
 function files(index){
     var data = 
-   `https://raw.githubusercontent.com/Kaushik20-02/images/main/male0001.webp
-   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0002.webp
-   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0003.webp
-   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0004.webp
-   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0005.webp
-   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0006.webp
-   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0007.webp
-   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0008.webp
-   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0009.webp
-   https://raw.githubusercontent.com/Kaushik20-02/images/main/male0010.webp
+   `./male0001.webp
+   ./male0002.webp
+   ./male0003.webp
+   ./male0004.webp
+   ./male0005.webp
+   ./male0006.webp
+   ./male0007.webp
+   ./male0008.webp
+   ./male0009.webp
+   ./male0010.webp
    https://raw.githubusercontent.com/Kaushik20-02/images/main/male0011.webp
    https://raw.githubusercontent.com/Kaushik20-02/images/main/male0012.webp
    https://raw.githubusercontent.com/Kaushik20-02/images/main/male0013.webp
